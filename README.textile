@@ -2,12 +2,17 @@ h1. Color Logger
 
 h3. Info
 
-p. Adds colors to your log files while maintaining default rails logging. The format has also been modified to:
+p. Adds colors to your log files while maintaining default rails logging. 
 
+The output format has some additional information not normally in the default Rails logger:
 [TYPE TIMESTAMP] [PROCESS_NAME.PID] MESSAGE
 
+Compared with Rails default:
+MESSAGE
+
 <pre>
-	[INFO 09/24/09 12:26:59] [script/ftpserver.14736] Ready and waiting for connections
+[INFO 09/24/09 12:26:59] [script/ftpserver.14736] Ready and waiting for connections
+[WARN 09/24/09 12:35:27] [script/ftpserver.14861] Exiting...
 </pre>
 
 h3. Copyright
