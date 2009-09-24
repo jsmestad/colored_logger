@@ -1,0 +1,6 @@
+h2. Custom Rails Logger
+
+p. This example shows how to setup a custom logger for your rails project and have it available throughout your application through Rails.import_log
+
+h3. Credits
+* Original import_logger.rb written by Jay Zeschin
